@@ -1,0 +1,156 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 800px;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 800px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.marketing .col-lg-2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-2 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+form{
+  margin-top: 50px;
+
+}
+.form{
+  width: 500px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 16px
+}
+input{
+  height: 45px;
+
+}
+form .submit{
+  background: #ff5722;
+  border-color:transparent;
+  color: #fff;
+  font-size:20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;  
+}
+form .submit:hover{
+  background-color: #f44336;
+  cursor: pointer;
+}
+ .portfolio-item{display:block;position:relative;overflow:hidden;max-width:530px;margin:auto auto 1rem}
+ .portfolio-item .caption{display:flex;height:100%;width:100%;background-color:rgba(33,37,41,.2);position:absolute;top:0;bottom:0;z-index:1}
+ .portfolio-item .caption .caption-content{color:#fff;margin:auto 2rem 2rem}
+ .portfolio-item .caption .caption-content h2{font-size:.8rem;text-transform:uppercase}
+ .portfolio-item .caption .caption-content p{font-weight:300;font-size:1.2rem}@media (min-width:992px){.portfolio-item{max-width:none;margin:0}
+ .portfolio-item .caption{-webkit-transition:-webkit-clip-path .25s ease-out,background-color .7s;-webkit-clip-path:inset(0);clip-path:inset(0)}
+ .portfolio-item .caption .caption-content{transition:opacity .25s;margin-left:5rem;margin-right:5rem;margin-bottom:5rem}
+ .portfolio-item img{-webkit-transition:-webkit-clip-path .25s ease-out;-webkit-clip-path:inset(-1px);clip-path:inset(-1px)}
+ .portfolio-item:hover img{-webkit-clip-path:inset(2rem);clip-path:inset(2rem)}
+ .portfolio-item:hover .caption{background-color:rgba(29,128,159,.9);-webkit-clip-path:inset(2rem);clip-path:inset(2rem)}}
+  .footer .social-link{display:block;height:4rem;width:4rem;line-height:4.3rem;font-size:1.5rem;background-color:#1d809f;transition:background-color .15s ease-in-out;box-shadow:0 3px 3px 0 rgba(0,0,0,.1)}footer
+ .footer .social-link:hover{background-color:#155d74;text-decoration:none}a{color:#1d809f}a:active,a:focus,a:hover{color:#155d74}
+
+ .btn-primary{background-color:#1d809f!important;border-color:#1d809f!important;color:#fff!important}
+ .btn-primary:active,.btn-primary:focus,.btn-primary:hover{background-color:#155d74!important;border-color:#155d74!important}
+ .btn-secondary{background-color:#ecb807!important;border-color:#ecb807!important;color:#fff!important}\
+ .btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{background-color:#ba9106!important;border-color:#ba9106!important}
+ .btn-dark{color:#fff!important}.btn{box-shadow:0 3px 3px 0 rgba(0,0,0,.1);font-weight:700}
+ .bg-primary{background-color:#1d809f!important}.text-primary{color:#1d809f!important}.text-secondary{color:#ecb807!important}
+ .service-icon{background-color:#fff;color:#1d809f;height:7rem;width:7rem;display:block;line-height:7.5rem;font-size:2.25rem;box-shadow:0 3px 3px 0 rgba(0,0,0,.1)}
+ 
