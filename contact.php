@@ -12,3 +12,5 @@ if (isset($_POST['sumit'])) {
 
   mail($mailto, $subject, $txt, $headers);
   header("location: index.html");
+
+?>
