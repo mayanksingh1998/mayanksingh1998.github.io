@@ -2,7 +2,7 @@
 
 if (isset($_POST['sumit'])) {
   $name = $_POST['name'];
-  $subject = $_POST['subject'];
+  
   $mailfrom = $_POST['mail'];
   $message = $_POST['message'];
 
@@ -11,4 +11,4 @@ if (isset($_POST['sumit'])) {
   $txt = "You have received an email from ".$name.".\n\n".$message;
 
   mail($mailto, $subject, $txt, $headers);
-  header("location: index.html?mailsend");
+  header("location: index.html");
