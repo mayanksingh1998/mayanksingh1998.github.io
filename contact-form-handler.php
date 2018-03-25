@@ -4,7 +4,7 @@
 	$message = $_POST['message'];
 
 
-	$email_form = 'mayanksingh1998.github.io';
+	$email_from = 'mayanksingh1998.github.io';
 
 	$email_subject ="New Form Submission";
 
