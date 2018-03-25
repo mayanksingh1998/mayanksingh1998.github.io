@@ -4,7 +4,7 @@
 	$message = $_POST['message'];
 
 
-	$email_from = 'mayanksingh1998.github.io';
+	$email_from = 'smayank.singh.1998@gmail.com';
 
 	$email_subject ="New Form Submission";
 
@@ -21,3 +21,5 @@
 	mail($to,$email_subject,$email_body,$headers);
 
 	header("Location: index.html");					
+
+?>
